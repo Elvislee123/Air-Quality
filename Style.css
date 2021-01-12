@@ -1,0 +1,201 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container_nav {
+	width: 80%;
+	margin: 0;
+}
+
+header {
+	margin: 0;
+	background: rgba(78, 78, 80, 1);
+}
+
+.divider {
+	float:left;
+	weight: 150px;
+	background: rgba(255,255,255,0.3);
+	width: 137px;
+	height: 58.4px;
+}
+
+.divider2 {
+        float:left;
+        weight: 150px;
+        background: rgba(0,0,0,0.3);
+        width: 137px;
+        height: 50px;
+}
+
+.divider3 {
+        float:left;
+        background: rgba(0,0,0,0.6);
+        width: 137px;
+        height: 1000px;
+}
+
+.Title {
+	float: left;
+	background: rgba(78, 78, 80, 1);
+	color: white;
+	margin-left: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 0;
+	font-weight: 900;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	padding: 10px 0;
+}
+
+nav {
+	float: right;
+	
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 25px;
+	position: relative;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+nav a:hover {
+	color: "White";
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px; 
+	width: 100%;
+	background-color: white;
+
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+
+}
+
+.left_container {
+	margin-left: 80px;
+	margin-top: 50px;
+	height: 400px;
+	float: left;
+	width: 520px;
+	background: rgba(78, 78, 80, 1);
+	border-style: solid;
+        border-color: rgba(78, 78, 80, 1);
+        border-width: 10px;
+        border-radius: 20px;
+}
+
+.Main_text {
+	margin: 0;
+	color: white;
+}
+
+.right_container {
+	margin-right: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+	height: 400px;
+	float: left;
+	width: 530px;
+	background: rgba(78, 78, 80, 1);
+        border-style: solid;
+        border-color: rgba(78, 78, 80, 1);
+        border-width: 10px;
+        border-radius: 20px;
+}
+
+.Graph_section_1 {
+	width: 100%;
+	background: rgba(245, 238, 252, 1);
+	height: 800px;
+	margin: 0px;
+}
+
+
+.Dashboard {
+	content: '';
+	background: grey;
+	height: 50px;
+}
+
+.PM_reading {
+	width: 100%;
+	overflow: hidden;
+	background: rgba(245, 238, 252, 1);
+	margin: 0px;
+}
+
+.PM_reading ul {
+	paddin: 0px;
+	margin: 50px;
+}
+
+.PM_reading ul li {
+	list-style: none;
+	float: left;
+	width: 200px;
+	height: 100px;
+	background: rgba(78, 78, 80, 1);
+	margin-left: 80px;
+	margin-top: 50px;
+	border-style: solid;
+	border-color: rgba(78, 78, 80, 1);
+	border-width: 10px;
+	border-radius: 10px;
+	color: white;
+}
+
+.PM_reading ul li scan {
+        font-size: 30px;
+}
+
+.PM_reading ul li a {
+	color: red;
+}
+
+.dashboard_heading {
+	float:left;
+	background: pink;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+}
+
+.dashboard_text {
+	color: white;
+}
+
